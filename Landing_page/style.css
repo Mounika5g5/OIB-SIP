@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: rgb(232, 193, 200);
+}
+.right-links {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:#880877;
+}
+
+#container{
+    background-color: #ed9accd3;
+    background-image: url('./images/hearts.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    text-align: center;
+
+}
+.headings h1{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+      font-family: Roboto;
+   
+}
+.headings p{
+    font-size: 30px;
+   
+}
+.button button{
+    padding: 20px 25px;
+    background-color: #802774;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+
+}
+.information{
+    background-color:#daa0cfba;
+    padding: 50px;   
+}
+.information img{
+    height: 250px;
+    width:250px; 
+    
+}
+.scnd-heading{
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+   
+}
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text{
+    max-width: 250px;
+    text-align: center;
+    font-size: 30px;
+    font-weight:500;
+}
+.quote{
+    background-color: #FFB6D2;
+    padding: 15px;
+    background-image: url('./images/quote_background.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quote h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 10px;
+}
+.quote h3{
+    font-style: italic;
+    font-size: 40px;
+    padding: 10px;
+}
+.quote p{
+    text-align: end;
+    font-size: xx-large;
+    font-weight: 500;
+    margin: 0;
+    
+}
+.signup{
+    background-color:rgb(238, 210, 215);
+    padding: 100px;  
+}
+.paras{
+    font-size: 30px; 
+    text-align: center;
+}
+
+.blue-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    background-image: url('./images/hearts.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border-radius: 20px;
+    padding: 20px;
+}
+#buttonSignUp{
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #802774;
+    color: white;
+    font-size: 25px;
+}
+.footer{
+    background-color:pink;
+    padding: 10px; 
+   
+}
+.footer p{
+
+    margin: 0px;
+    text-align: center;
+    font-family:Robotos ;
+    font-weight:500;
+    font-size: 25px;  
+
+}
